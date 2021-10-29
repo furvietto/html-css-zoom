@@ -44,20 +44,41 @@ header .margin-r {
 
 /* main */
 
+img {
+    width:;
+}
+
 .p-absolute {
     position: absolute;
     left: 0;
     bottom: 0;
+    background-color: grey;
+    color: white;
+    padding: 0.2em;
+    font-size: 0.8  em;
 }
 
 .p-relative {
-    /* position: relative; */
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 0.3em 0.1em;
 }
 
 main {
-    height: calc(100vh - 98px); 
+    height: calc(100vh - 98px);  
+    width: 100%;  
+}
+
+.container-main {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap ;   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-main img {
+
 }
 
 /* footer */
@@ -67,7 +88,7 @@ main {
 }
 
 footer {
-    position:sticky;
+    position:fixed;
     bottom: 0;
     left: 0;
     width: 100%;
