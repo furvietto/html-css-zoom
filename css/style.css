@@ -42,6 +42,11 @@ header .margin-r {
     margin-right: 0.7em;
 }
 
+
+main {
+    height: calc(100vh - 104px);    
+}
+
 /* footer */
 
 #font-small{
