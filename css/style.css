@@ -55,5 +55,42 @@ footer {
 
 .flex-footer {
     display: flex;
+    justify-content: space-between;
+    height: 100%;
+
 }
 
+footer .col-l {
+    flex-basis: 15%;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+ul li:hover .gray {
+    color: gray;
+}
+
+.font-size {
+    font-size: 1.5em;
+}
+
+footer .col-m {
+    flex-basis: 50%;  
+    display: flex;
+}
+
+footer .col-r {
+    flex-basis: 10%;
+}
