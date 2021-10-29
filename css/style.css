@@ -44,9 +44,6 @@ header .margin-r {
 
 /* main */
 
-img {
-    width:;
-}
 
 .p-absolute {
     position: absolute;
@@ -68,6 +65,7 @@ img {
 main {
     height: calc(100vh - 98px);  
     width: 100%;  
+    background-color: black;
 }
 
 .container-main {
@@ -156,4 +154,5 @@ footer .col-r > div {
 /* colori */
 .c-green {
     color: green;
+}
 }
