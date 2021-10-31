@@ -8,7 +8,9 @@ html {
     font-size: 100%;
 }
 
-
+body {
+    background-color: black;
+}
 
 /* header */
 header {
@@ -49,27 +51,26 @@ header .margin-r {
     background-color: grey;
     color: white;
     padding: 0.2em;
-    font-size: 0.8  em;
+    font-size: 0.8em;
 }
 
 .p-relative {
     position: relative;
-    width: 200px;
+    flex-basis: calc(100% / 8);
     height: 100px;
     margin: 0.3em 0.1em;
 }
 
-main {
-    height: calc(100vh - 98px);  
-    width: 100%;  
+main {   
     background-color: black;
 }
 
 .container-main {
     width: 100%;
+    height: calc(100vh - 99px);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
 }
 
 /* footer */
@@ -79,7 +80,7 @@ main {
 }
 
 footer {
-    position:fixed;
+    position:sticky;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -147,5 +148,4 @@ footer .col-r > div {
 /* colori */
 .c-green {
     color: green;
-}
 }
